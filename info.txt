@@ -1,0 +1,92 @@
+Ni ska skapa en portfolio sida som ni potentiellt kan ha ert CV & andra projekt( + existerande gamla projekt)med bilder.
+Portfolion ska innehålla en startsida med ett galleri av dina projekt & en informationssida med information om dig.
+Man ska även kunna besöka varje projekt på en egen sida.
+
+Paper & penna:
+skissa alla sidor/layout , skriv ner visa inspirations källor.
+skriv lite hur saker ser ut när det är darkmode
+skriv lite om hur saker ser ut när det är mobilvy
+
+Github:
+Lägg upp koden på ett repo på github i rootmappen.
+Namnge repot i detta formatet: webb23-html-slutprojekt-fornamn-efternamn
+Publicera sidan med github pages inställt till:  /root
+Lämna i saker ordentligt (Väldigt strikt denna gången, direkt IG ifall ni lämnar in fel )
+
+Google Classroom inlämningar:
+Länk till Github-repot
+Länk till den publicerade sidan githubpages
+Presentera ert projekt i 5 min (tills vi har sett alla sidor + mobil vyn)
+skicka in er skiss/skisser.
+
+
+HTML:
+Alla sidor ska ha:
+Använd semantiska taggar när det passar (minst 6 olika på ert projekt t.ex <details> <section> <footer> etc ).
+Navbar med länkar till lämpliga sidor.(änkarna horisontellt)
+Footer med lämplig information & socialamedier eller kontaktinfo. (Hitta på socialmedier om ni ej har)
+* kommentera på ert Html * ha grid/flex på varje sida.
+
+Startsidan:
+Ett bildgalleri med minst 4 projekt. Varje projekt i galleriet ska ha ett foto (avatar) & en rubrik minst (beskrivning kan vara bra).
+Ni ska ha flexbox & grid eller fler för galleriet.
+Informationssida:
+Information om dig.
+vanlig bild som ska vara responsive.
+* istället för en vanlig bild på er så ska ni använda picture taggen med olika källor för breakpoints/vyer. 
+4 Projektsidor - 1 html-sida per projekt.
+Varje sida för ett projekt ska ha samma layout. Du bestämmer själv exakt hur den ska se ut.
+Rubrik med projektnamnet.
+En större bild som representerar projektet.
+3 mindre bilder som visar projektet (t.ex. olika perspektiv).
+En text med en projektbeskrivning.
+
+Har du inga färdiga projekt att visa upp kan du använda lorem ipsum & placeholder-foton. Innehållet ska dock vara olika för de olika sidorna så att det tydligt syns att det är olika projekt
+
+CSS:
+Håll dig till så få css-filer som möjligt. Om du delar upp det på flera filer ska det vara tydligt vilken fil som gör vad & det ska vara uppdelat på ett sätt så att där inte är några dubbla stilregler (dubbelkolla i inspektorn för olika style & se om saker är korrekt struket/taget).
+Ha minst 2 css variabler. En för färg som ni använder mycket av & en för distans som används i padding/margin/gap etc.
+* Alla repeterande värden i css som är till för samma saker, ersätts med en css variabel (minst 4 variabeler).
+Alla sidor ska vara responsive med relativa/dynamiska enheter när det passar (t.ex. %, vh, vw, rem , em ).
+Använd minst en breakpoint med @media för mobilvyn , tanken är att den ser bra & tydligt
+ut (text & bilder ska ej kapas/overflowa).
+Ni behöver minst använda en transition, någonstans på sidorna.
+* Ni behöver använda animation med minst 3 keyframes.
+* kommentera på ert css filer
+Använd CSS som du lärt dig under kursen på ett lämpligt sätt. (Använd tex aldrig <br> utan lös istället det du försöker göra med hjälp av dina kunskaper kring the box-model , margin , padding , top , left , position , flexbox etc).
+
+Bootstrap:
+Välj minst ett av följande:
+Använd minst en bootstrap-komponent (man kan ha fler klasser med mellanrum)
+Använd dig av bootstraps layout på minst ett ställe
+
+Hamburgarmeny - MOBIL
+När det är mobilvy så ska navbaren förvandlas till en hamburgar meny ( länkarna vertikalt).
+
+Darkmode
+Baserat på webbläsarens inställningar så ska css ändras för att anpassa med @media.
+I darkmode så ska färger Anpassas från ljust färgtema till --> mörk färgtema.
+* bilder ska ha filter så att det är mörkare i darkmode eller annan effekt.
+
+
+
+Godkänt kriterier:
+För att projektet ska nå G behöver alla minimikrav finnas med & fungera för utom dem med * före.
+Presenterar ni inte så ska ni skicka in en rapport på 2 sidor (800 ord) om ert projekt som förklarar css & html & layouten.
+Projektet betygsätts lite efter utseende & design , allting på sidan ska vara tydligt speciellt i mobilvyn.
+Design som tas i hänsyn är baserat på en färgteman , uniform spacing & struktur, konkreta klassiska stilar baserat på er skiss eller inspirations källor & Professionalitet . 
+
+
+Väl godkänt kriterier:
+För att projektet ska nå VG behöver alla kriterier för G uppfyllas samt all med * före. 
+Checka gärna av med mig för att försäkra dig om att det räcker. 
+All kod ska ha både readability & maintainability i åtanke. Alltså, allt ska vara lätt att läsa & lätt att underhålla. Gäller både fil- & kod-struktur. 
+Projektet ska vara inlämnat i tid enligt anvisningarna under ‘Inlämning’ fredagen 17 mars  kl:23:59.
+
+
+
+Tips!
+Planera först med papper & penna innan du börjar koda.
+Starta med layout & breakpoints tidigt i processen.
+Lämna finslip av detaljer till sist. Se först till att minimikraven är med. 
+Ta en paus & våga be om hjälp via email eller google classrooms privat kommentar.
