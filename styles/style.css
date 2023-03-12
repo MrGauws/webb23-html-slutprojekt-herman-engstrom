@@ -114,7 +114,7 @@ header .footer p a{
 #home{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/front2.jpg);
+    background-image: url(img/front2.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
