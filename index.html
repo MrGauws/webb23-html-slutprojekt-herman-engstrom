@@ -9,17 +9,11 @@
 </head>
 <body>
 
-    <!--Header Start-->
+    <!--Header STARTS-->
     <header>
         <div class="profile">
             <img src="img/profil2.jpg" alt="" width="150px">
             <img id="logo" src="img/logo3.png" alt="logo">
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
         </div>
 
         <nav>
@@ -33,13 +27,76 @@
             </ul>
         </nav>
         <div class="footer">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
             <p>&copy; Copyright 2023 <br>Designed by <a href="https://www.facebook.com/engstromH" target="_blank">Herman</a></p>
         </div>
     </header>
+    <!--Header ENDS-->
 
     <!--Mobile Nav Check-->
     <i class="fa-solid fa-bars" id="NavBtn"></i>
 
+    <!--Landing page STARTS-->
+    <main>
+        <section id="home">
+            <div class="home-row">
+                <h1>
+                    Hi<span>,</span> This is <br>Herman Engström <span>.</span>
+                    <p>I'm a <span class="auto-input"></span></p>
+                </h1>
+            </div>
+        </section>
+        <!--Landing page ENDS-->
+
+
+        <!--About Section STARTS-->
+        <section id="about">
+
+            <div id="about">
+                <div class="container">
+                  <div class="rad">
+                    <div class="about-col-1">
+                      <img src="img/profil2.jpg" alt="profil">
+                    </div>
+                    <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <p>Welcome! <br> My name is Herman Engström and I'm currently studying Web-development - E-commerce. Within this site you will find information about me and you can also find my previous work. </p>
+                      
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                          <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                          <li><span>Web Development</span><br>Web app Development</li>
+                          <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                          <li><span>2013 - 2014</span><br>Computer Science at Malmö Univerity</li>
+                          <li><span>2014 - 2017</span><br>Industrial Economics @ Borås University</li>
+                          <li><span>2022 - Current</span><br>Web Development @ Grit Academy</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+
+
+    </main>
+    <script>
+        
+    </script>
+    <!-- AutoType JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- Main JS File-->
     <script src="js/script.js"></script>
     <!--FontAwesome JS Icons-->
