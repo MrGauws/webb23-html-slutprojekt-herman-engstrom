@@ -29,7 +29,6 @@ header{
     transition: 0.4s;
     z-index: 99;
 }
-
 header .profile{
     text-align: center;
     margin: 10px 0
@@ -45,7 +44,13 @@ header .profile img:hover{
 header .profile h1{
     color:white;
     font-weight: 600;
-
+    
+}
+/*Main*/
+main{
+    margin-left: 300px;
+    background-color: var(--bgColorq);
+    transition: 0.3s;
 }
 #logo{
     border: 0;
@@ -236,6 +241,12 @@ header .footer .social-icons a:hover{
 .tab-contents.active-tab{
     display: block;
 }
+.mobile-nav-active header{
+    left: 0;
+}
+.mobile-nav.active header .footer{
+    left: 0;
+}
 
 
 
@@ -243,7 +254,7 @@ header .footer .social-icons a:hover{
 
 
 
-/* Mobile PoV */
+/* Mobile PoV (WIDTH == 670) */
 @media only screen and (max-width: 670px) {
     #home{
         padding: 30px;
@@ -262,18 +273,8 @@ header .footer .social-icons a:hover{
         
     }
 }
-/*Main*/
-main{
-    margin-left: 300px;
-    background-color: var(--bgColorq);
-    transition: 0.3s;
-}
-@media only screen and (max-width: 1050px){
-    main{
-        margin-left: 0;
-    }
-}
-/* Mobile PoV */
+
+/* Mobile PoV (WIDTH == 1050) */
 @media only screen and (max-width: 1050px){
     header{
         left: -300px;
@@ -284,10 +285,7 @@ main{
     #NavBtn{
         display: block;
     }
-}
-.mobile-nav-active header{
-    left: 0;
-}
-.mobile-nav.active header .footer{
-    left: 0;
+    main{
+        margin-left: 0;
+    }
 }
