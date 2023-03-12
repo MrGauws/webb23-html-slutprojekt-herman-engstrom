@@ -244,7 +244,7 @@ header .footer .social-icons a:hover{
 .mobile-nav-active header{
     left: 0;
 }
-.mobile-nav.active header .footer{
+.mobile-nav-active header .footer{
     left: 0;
 }
 
