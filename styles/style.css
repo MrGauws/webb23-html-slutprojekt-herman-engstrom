@@ -274,6 +274,26 @@ header .footer .social-icons a:hover{
     }
 }
 
+
+@media only screen and (max-width: 732px) {
+    #home{
+        padding: 30px;
+    }
+    #home .home-row h1{
+        font-size: 35px;
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+    #home .home-row h1 br{
+        display: none;
+    }
+    #home .home-row p{
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+}
+
 /* Mobile PoV (WIDTH == 1050) */
 @media only screen and (max-width: 1050px){
     header{
