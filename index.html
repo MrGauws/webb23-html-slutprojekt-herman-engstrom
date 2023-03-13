@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mdb.min.css">
     <title>Personal Portfolio - Herman Engström</title>
 </head>
 <body>
@@ -56,58 +57,90 @@
 
         <!--About Section STARTS-->
         <section id="about">
-
-            <div id="about">
-                <div class="container">
-                  <div class="rad">
-                    <div class="about-col-1">
-                      <img src="img/profil2.jpg" alt="profil">
-                    </div>
-                    <div class="about-col-2">
-                      <h1 class="sub-title">About Me</h1>
-                      <p>Welcome! <br> My name is Herman Engström and I'm currently studying Web-development <br> E-commerce. <br> Within this site you will find information about me and you can also find my previous work. </p>
-                      
-                      <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('biography')">Biography</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-
-                      </div>
-                      <div class="tab-contents active-tab" id="biography">
-                        <ul>
-                          <li><span>Name</span><br>Herman Engström</li>
-                          <li><span>Age</span><br>28 (1994)</li>
-                          <li><span>Residence</span><br>Ystad</li>
-                        </ul>
-                      </div>
-                      <div class="tab-contents" id="experience">
-                        <ul>
-                          <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
-                          <li><span>Web Development</span><br>Web app Development</li>
-                          <li><span>App Development</span><br>Building Android/iOS apps</li>
-                        </ul>
-                      </div>
-                      <div class="tab-contents" id="education">
-                        <ul>
-                          <li><span>2013 - 2014</span><br>Computer Science at Malmö Univerity</li>
-                          <li><span>2014 - 2017</span><br>Industrial Economics @ Borås University</li>
-                          <li><span>2022 - Current</span><br>Web Development @ Grit Academy</li>
-                        </ul>
-                      </div>
-                      <div class="tab-contents" id="languages">
-                        <ul>
-                          <li><span>80%</span><br>HTML & CSS</li>
-                          <li><span>20%</span><br>Javascript</li>
-                          <li><span>80%</span><br>Python</li>
-                          <li><span>50%</span><br>C#</li>
-                        </ul>
-                      </div>
-                    </div>
+          <div id="about">
+            <div class="container">
+              <div class="rad">
+                <div class="about-col-1">
+                  <img src="img/profil2.jpg" alt="profil">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>Welcome! <br> My name is Herman Engström and I'm currently studying Web-development <br> E-commerce. <br> Within this site you will find information about me and you can also find my previous work. </p>
+                  
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('biography')">Biography</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="biography">
+                    <ul>
+                      <li><span>Name</span><br>Herman Engström</li>
+                      <li><span>Age</span><br>28 (1994)</li>
+                      <li><span>Residence</span><br>Ystad</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                      <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                      <li><span>Web Development</span><br>Web app Development</li>
+                      <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li><span>2013 - 2014</span><br>Computer Science at Malmö Univerity</li>
+                      <li><span>2014 - 2017</span><br>Industrial Economics @ Borås University</li>
+                      <li><span>2022 - Current</span><br>Web Development @ Grit Academy</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="languages">
+                    <ul>
+                      <li><span>80%</span><br>HTML & CSS</li>
+                      <li><span>20%</span><br>Javascript</li>
+                      <li><span>80%</span><br>Python</li>
+                      <li><span>50%</span><br>C#</li>
+                    </ul>
                   </div>
                 </div>
-        </section>
-
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="img/coverbild1.jpg" class="card-img-top" alt="Web-Development">
+                  <div class="card-body">
+                      <h5 class="card-title">Web-Development</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Hire me!</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="img/minibild3.jpg" class="card-img-top" alt="Graphic-Design">
+                  <div class="card-body">
+                      <h5 class="card-title">Graphic Design</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Hire me!</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="img/minibild6.jpg" class="card-img-top" alt="App-Creation">
+                  <div class="card-body">
+                      <h5 class="card-title">App Creation</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Hire me!</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
     </main>
     <script>
