@@ -254,7 +254,7 @@ header .footer .social-icons a:hover{
 
 
 
-
+Experience
 
 
 
@@ -302,6 +302,10 @@ header .footer .social-icons a:hover{
         text-align: justify;
         flex-direction: column;
     }
+    #about .tab-titles{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 /* Mobile PoV (WIDTH == 670) */
 @media only screen and (max-width: 670px) {
@@ -320,4 +324,5 @@ header .footer .social-icons a:hover{
         font-size: 20px;
         font-weight: 400;
     }
+
 }
