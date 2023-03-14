@@ -306,7 +306,7 @@ form btn2{
     cursor: pointer;
 }
 
-/* ========== Project sites ==========  */
+/* ========== Project Sites ==========  */
 .projekt-info img{
     max-width: 100%;
 }
@@ -342,7 +342,8 @@ form btn2{
   #projektsidan h1{
     color:var(--themeColor)
   }
-  
+  /* ============================== MEDIA QUERIES & DARK MODE  ============================== */
+
 /* ========== Google Pixel 6 PoV (WIDTH == 732)  ========== */
 @media only screen and (max-width: 732px) {
     #home{
@@ -362,7 +363,7 @@ form btn2{
         
     }
 }
-/* ========== Mobile PoV (WIDTH == 1050) ========== */
+/* ========== Header Media Query (WIDTH == 1050) ========== */
 @media only screen and (max-width: 1050px){
     header{
         left: -300px;
@@ -392,7 +393,7 @@ form btn2{
         gap: 10px;
     }
 }
-/* ========== Mobile PoV ========== (WIDTH == 670) */
+/* ========== Home Media Query ========== (WIDTH == 670) */
 @media only screen and (max-width: 670px) {
     #home{
         padding: 30px;
@@ -412,7 +413,7 @@ form btn2{
 
 }
 
-/* ========== Projectsites Media Query ==========  */
+/* ========== Projectsites Media Query (WIDTH == 768) ==========  */
 @media (max-width: 768px) {
   header {
     padding: 30px 0;

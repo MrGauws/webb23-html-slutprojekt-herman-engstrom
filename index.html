@@ -74,15 +74,18 @@
                   <!------------Picture Tag (++VG KRAV++) ENDS------------>
                 </div>
                 <div class="about-col-2">
+                  <!-- This is the title for the About Me section -->
                   <h1 class="sub-title">About Me</h1>
+                  <!-- This is the introductory paragraph for the About Me section -->
                   <p>Welcome! <br> My name is Herman Engström and I'm currently studying Web-development <br> E-commerce. <br> Within this site you will find information about me and you can also find my previous work. </p>
-                  
+                  <!-- This is the section for the tabs and their titles -->
                   <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('biography')">Biography</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                     <p class="tab-links" onclick="opentab('languages')">Languages</p>
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
                   </div>
+                   <!-- This is the section for the Biography tab which is active at the beginning -->
                   <div class="tab-contents active-tab" id="biography">
                     <ul>
                       <li><span>Name</span><br>Herman Engström</li>
@@ -119,8 +122,11 @@
           <!------------About Section ENDS------------>
           <!------------Portfolio Section STARTS------------>
         <section id="services">
+          <!-- A container is created to contain the project cards -->
         <div class="container">
+          <!-- A row is created using the Bootstrap grid system to ensure proper spacing between each project card -->
           <div class="row g-3">
+            <!-- The first project card starts here with an image, a card title, and a description, as well as buttons for previewing the project and accessing its GitHub repo -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <img src="img/coverbild1.jpg" class="card-img-top" alt="Web-Development">
@@ -132,6 +138,7 @@
                 </div>
               </div>
             </div>
+            <!-- Another project card starts here with its own image, title, and description, as well as preview and GitHub repo buttons -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <img src="img/minibild3.jpg" class="card-img-top" alt="Graphic-Design">
@@ -143,6 +150,7 @@
                 </div>
               </div>
             </div>
+            <!-- Another project card starts here with its own image, title, and description, as well as preview and GitHub repo buttons -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                   <img src="img/minibild6.jpg" class="card-img-top" alt="App-Creation">
@@ -154,6 +162,7 @@
                   </div>
               </div>
             </div>
+            <!-- Another project card starts here with its own image, title, and description, as well as preview and GitHub repo buttons -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <img src="img/minibild7.jpg" class="card-img-top" alt="App-Creation">
@@ -171,19 +180,23 @@
       <!------------Portfolio Section ENDS------------>
       <!------------Services Section STARTS------------>
 
-
+      <!--This section will be updates when I've studied more JavaScript. I wasn't pleased with my attempts.-->
 
       <!------------Services Section ENDS------------>
       <!------------Contact Section STARTS------------>
+      <!-- Displaying the contact information and form to contact me. -->
       <section id="contact">
       <div id="contact">
         <div class="container">
           <div class="raden">
+            <!-- Div for displaying the content in rows -->
             <div class="kontakt-left">
+              <!-- Div for displaying the contact details -->
               <h1 class="sub-title"> Contact Me</h1>
               <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
               <p><i class="fa-solid fa-mobile-screen-button"></i> 0123456789</p>
               <div class="social-icons">
+                <!-- Div for displaying social media icons and links -->
                 <a href="https://www.facebook.com/engstromH/"><i class="fab fa-facebook"></i></a>
                 <a href="https://twitter.com/engstromhlol"><i class="fab fa-twitter-square"></i></a>
                 <a href="https://www.instagram.com/engstromh/"><i class="fab fa-instagram"></i></a>
@@ -192,6 +205,7 @@
               <a href="img/dummie.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="kontakt-right">
+              <!-- Div for displaying the contact form -->
               <form name="submit-to-google-sheet">
                 <input type="text" name="Name" placeholder="Your name" required>
                 <input type="email" name="Email" placeholder="Your email" required>
