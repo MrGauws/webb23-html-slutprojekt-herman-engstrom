@@ -380,5 +380,35 @@ Experience
 
 }
 
+/* ========== Projektsidorna ==========  */
+.storbild img{
+    max-width: 100%;
+}
+.mindre-bilder{
+    margin-top: 20px;
+}
 
+.mindre-bilder img {
+  width: 30%;
+  margin-right: 10px;
+}
+#projektsidan {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+@media (max-width: 768px) {
+  header {
+    padding: 30px 0;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .mindre-bilder img {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
