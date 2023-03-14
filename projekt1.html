@@ -46,14 +46,28 @@
     <main id="projektsidan">
        
         <!------------PROJEKT STARTS------------>
+        <h1>Min portfolio</h1>
         <div class="storbild">
-            <img src="img/minibild6.jpg" alt="Stor bild som representerar projektet">
+            <!------------Picture tag för VG-krav START------------>
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/minibild6.jpg">
+              <source media="(min-width: 480px)" srcset="img/minibild1.jpg">
+              <img src="img/minibild6.jpg" alt="Stor bild som representerar projektet">
+            </picture>
+            <!------------Picture tag för VG-krav END------------>
+            <div class="projekttext">
+                <p>Jag är stolt över att presentera min första portfolio hemsida, som jag har skapat med HTML och CSS. Det har varit en fantastisk resa att lära sig grunderna i webbutveckling och jag har lärt mig mycket under processen. Att bygga min egen hemsida har varit en spännande och rolig utmaning, där jag har fått utveckla mina färdigheter och kreativitet.
+    
+                    Min portfolio hemsida är ett uttryck för mina intressen och mina kunskaper, där jag har presenterat mina projekt och mina prestationer på ett överskådligt och användarvänligt sätt. Jag har lagt stor vikt vid designen och layouten, för att skapa en attraktiv och professionell presentation av mina projekt.
+                    
+                    Genom att bygga denna hemsida har jag fått bekräftelse på att jag utvecklas mer och mer för varje dag, och jag ser fram emot att fortsätta lära mig mer om webbutveckling. Jag är övertygad om att min portfolio hemsida kommer att vara en grundsten i min fortsatta utveckling som webbutvecklare, och jag ser fram emot att skapa fler spännande projekt i framtiden.
+                </p>
+            </div>
         <div class="mindre-bilder">
             <img src="img/minibild1.jpg" alt="Planering">
             <img src="img/sskod.png" alt="Kod">
             <img src="img/sskod2.png" alt="Projektet klart">
         </div>
-        <p>Projektbeskrivning här...</p>
 
     </main>
     <!------------ Main JS File------------>

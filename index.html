@@ -13,7 +13,7 @@
     <!------------Header STARTS------------>
     <header>
         <div class="profile">
-            <img src="img/profil2.jpg" alt="" width="150px">
+            <img src="img/profil.png" alt="" width="150px">
             <img id="logo" src="img/logo3.png" alt="logo">
         </div>
 
@@ -22,7 +22,7 @@
                 <li><a href="#" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
                 <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
                 <li><a href="#services"><i class="fa-solid fa-server"></i>My Services</a></li>
-                <li><a href="#"><i class="fa-solid fa-briefcase"></i>Work</a></li>
+                <li><a href="#services"><i class="fa-solid fa-briefcase"></i>Work</a></li>
                 <li><a href="#contact"><i class="fa-solid fa-message"></i>Contact</a></li>
 
             </ul>
@@ -62,7 +62,13 @@
             <div class="container">
               <div class="rad">
                 <div class="about-col-1">
-                  <img src="img/profil2.jpg" alt="profil">
+                  <!------------Picture Tag (++VG KRAV++)------------>
+                  <picture>
+                    <source media="(min-width: 768px)" srcset="img/profil2.jpg">
+                    <source media="(min-width: 480px)" srcset="img/front3_1_700x970.png">
+                    <img src="img/profil2.jpg" alt="profil">
+                  </picture>
+                  <!------------Picture Tag (++VG KRAV++) ENDS------------>
                 </div>
                 <div class="about-col-2">
                   <h1 class="sub-title">About Me</h1>
@@ -108,7 +114,7 @@
             </div>
           </div>
           <!------------About Section ENDS------------>
-          <!------------Services Section STARTS------------>
+          <!------------Portfolio Section STARTS------------>
         <section id="services">
         <div class="container">
           <div class="row g-3">
@@ -116,9 +122,10 @@
               <div class="card">
                 <img src="img/coverbild1.jpg" class="card-img-top" alt="Web-Development">
                 <div class="card-body">
-                <h5 class="card-title">Web-Development</h5>
+                <h5 class="card-title">Portfolio Webpage - HTML & CSS & JS</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
-                <a href="#" class="btn btn-primary">Hire me!</a>
+                <a href="projekt1.html" class="btn btn-primary">Preview Project</a>
+                <a href="projekt1.html" class="btn btn-dark">GitHub Repo</a>
                 </div>
               </div>
             </div>
@@ -126,9 +133,10 @@
               <div class="card">
                 <img src="img/minibild3.jpg" class="card-img-top" alt="Graphic-Design">
                 <div class="card-body">
-                  <h5 class="card-title">Graphic Design</h5>
+                  <h5 class="card-title">Vending Machine - PYTHON</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
-                  <a href="#" class="btn btn-primary">Hire me!</a>
+                  <a href="projekt2.html" class="btn btn-primary">Preview Project</a>
+                  <a href="#" class="btn btn-dark">GitHub Repo</a>
                 </div>
               </div>
             </div>
@@ -136,31 +144,33 @@
                 <div class="card">
                   <img src="img/minibild6.jpg" class="card-img-top" alt="App-Creation">
                   <div class="card-body">
-                    <h5 class="card-title">App Creation</h5>
+                    <h5 class="card-title">Wifi-Cracker - PYTHON</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
-                    <a href="#" class="btn btn-primary">Hire me!</a>
+                    <a href="projekt3.html" class="btn btn-primary">Preview Project</a>
+                    <a href="#" class="btn btn-dark">GitHub Repo</a>
                   </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <img src="img/minibild6.jpg" class="card-img-top" alt="App-Creation">
+                <img src="img/minibild7.jpg" class="card-img-top" alt="App-Creation">
                 <div class="card-body">
-                  <h5 class="card-title">App Creation</h5>
+                  <h5 class="card-title">Pizzeria School Project - HTML & CSS</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
-                  <a href="#" class="btn btn-primary">Hire me!</a>
+                  <a href="projekt4.html" class="btn btn-primary">Preview Project</a>
+                  <a href="#" class="btn btn-dark">GitHub Repo</a>
                 </div>
             </div>
           </div>
           </div>
         </div>
       </section>
-      <!------------Service Section ENDS------------>
-      <!------------Portfolio Section STARTS------------>
-
-
-
       <!------------Portfolio Section ENDS------------>
+      <!------------Services Section STARTS------------>
+
+
+
+      <!------------Services Section ENDS------------>
       <!------------Contact Section STARTS------------>
       <section id="contact">
       <div id="contact">
