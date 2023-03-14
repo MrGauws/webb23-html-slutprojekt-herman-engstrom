@@ -46,14 +46,28 @@
     <main id="projektsidan">
        
         <!------------PROJEKT STARTS------------>
+        <h1>Min portfolio</h1>
         <div class="storbild">
-            <img src="img/minibild6.jpg" alt="Stor bild som representerar projektet">
+            <!------------Picture tag för VG-krav START------------>
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/vending.png">
+              <source media="(min-width: 480px)" srcset="img/minibild1.jpg">
+              <img src="vending.png" alt="Stor bild som representerar projektet">
+            </picture>
+            <!------------Picture tag för VG-krav END------------>
+            <div class="projekttext">
+                <p>Vendingmaskiner har blivit en integrerad del av vårt dagliga liv, vilket ger oss enkel tillgång till mat, dryck och andra nödvändigheter på språng. Som en entusiastisk programmerare bestämde jag mig för att ta på mig utmaningen att skapa min egen kod för en vendingmaskin innan jag gick med i Grit Academy.<br><br>
+
+Koden för vendingmaskinen som jag har skapat är utformad för att simulera funktionaliteten hos en verklig vendingmaskin och låta användare göra val, sätta in betalning och få sina valda varor. Min kod är byggd med hjälp av olika programmeringsspråk och verktyg, inklusive Python, JavaScript och HTML / CSS.<br><br>
+
+Genom detta projekt har jag fått värdefull erfarenhet av programvaruutveckling, inklusive att designa användargränssnitt, hantera inmatning och utmatning och genomföra säker betalningsbehandling. Jag är ivrig att fortsätta förbättra och förädla denna kod för vendingmaskiner och utforska nya möjligheter inom programmering.
+                </p>
+            </div>
         <div class="mindre-bilder">
             <img src="img/minibild1.jpg" alt="Planering">
             <img src="img/sskod.png" alt="Kod">
-            <img src="img/sskod2.png" alt="Projektet klart">
+            <img src="img/machine.jpg" alt="Projektet klart">
         </div>
-        <p>Projektbeskrivning här...</p>
 
     </main>
     <!------------ Main JS File------------>

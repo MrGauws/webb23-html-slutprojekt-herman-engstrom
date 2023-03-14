@@ -46,14 +46,28 @@
     <main id="projektsidan">
        
         <!------------PROJEKT STARTS------------>
+        <h1>Min portfolio</h1>
         <div class="storbild">
-            <img src="img/minibild6.jpg" alt="Stor bild som representerar projektet">
+            <!------------Picture tag för VG-krav START------------>
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/wificrack-kod.png">
+              <source media="(min-width: 480px)" srcset="img/wificrack-kod.png">
+              <img src="img/wificrack-kod.png" alt="Stor bild som representerar projektet">
+            </picture>
+            <!------------Picture tag för VG-krav END------------>
+            <div class="projekttext">
+                <p>Mitt program som är utvecklat i Python kan söka efter närliggande trådlösa nätverk och lista deras namn för användaren. 
+                    
+                    Genom att använda bibliotek och moduler som är tillgängliga i Python-ramverket, har vi skapat en enkel och effektiv lösning för att hjälpa användare att hitta och identifiera wifi-nätverk i deras närhet. Med vårt program kan användare snabbt och enkelt söka efter wifi-nätverk och få en lista över namnen på nätverken som är tillgängliga och därefter ta sig in. <br><br>
+                    
+                    Detta är en användbar funktion för personer som behöver ansluta till ett trådlöst nätverk, och vi är stolta över att kunna erbjuda denna lösning.
+                </p>
+            </div>
         <div class="mindre-bilder">
-            <img src="img/minibild1.jpg" alt="Planering">
+            <img src="img/planning.png" alt="Planering">
             <img src="img/sskod.png" alt="Kod">
-            <img src="img/sskod2.png" alt="Projektet klart">
+            <img src="img/wificrack-kod.png" alt="Projektet klart">
         </div>
-        <p>Projektbeskrivning här...</p>
 
     </main>
     <!------------ Main JS File------------>

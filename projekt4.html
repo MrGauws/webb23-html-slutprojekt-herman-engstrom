@@ -46,14 +46,29 @@
     <main id="projektsidan">
        
         <!------------PROJEKT STARTS------------>
+        <h1>Min portfolio</h1>
         <div class="storbild">
-            <img src="img/minibild6.jpg" alt="Stor bild som representerar projektet">
+            <!------------Picture tag för VG-krav START------------>
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/pizza.png">
+              <source media="(min-width: 480px)" srcset="img/pizza.png">
+              <img src="img/pizza.png" alt="Stor bild som representerar projektet">
+            </picture>
+            <!------------Picture tag för VG-krav END------------>
+            <div class="projekttext">
+                <p>
+                    Jag har utvecklat en hemsida för en pizzeria i HTML och CSS. Hemsidan är utformad för att ge användarna en smak av pizzerians meny, lokala erbjudanden, öppettider och kontaktuppgifter. <br><br>
+
+                    Genom att använda HTML och CSS kunde jag skapa en estetiskt tilltalande och funktionell hemsida. Jag använde CSS för att skapa en attraktiv och användarvänlig layout och HTML för att skapa sidans innehåll och struktur. Jag inkluderade också bilder och grafik för att förbättra användarupplevelsen.<br><br>
+
+                    Efter att ha utvecklat denna hemsida har jag fortsatt att utvecklas och förbättras som webbutvecklare. Jag har lärt mig mer avancerade tekniker och verktyg för webbutveckling och har skapat många andra projekt, både professionellt och personligt. Men jag är stolt över denna hemsida för pizzerian eftersom den representerar mina första steg i webbutveckling och visar hur mycket jag har lärt mig sedan dess.
+                </p>
+            </div>
         <div class="mindre-bilder">
-            <img src="img/minibild1.jpg" alt="Planering">
+            <img src="img/minibild2.jpg" alt="Planering">
             <img src="img/sskod.png" alt="Kod">
-            <img src="img/sskod2.png" alt="Projektet klart">
+            <img src="img/pizza.png" alt="Projektet klart">
         </div>
-        <p>Projektbeskrivning här...</p>
 
     </main>
     <!------------ Main JS File------------>
