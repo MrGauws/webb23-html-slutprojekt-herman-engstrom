@@ -50,23 +50,25 @@ header .profile h1{
     font-weight: 600;
     
 }
-/* ========== Main ==========*/
+/* ========== Main section for the site, contains all the workflow ==========*/
 main{
     margin-left: 300px;
     background-color: var(--bgColor);
     transition: 0.3s;
 }
+/* ========== Logo Style, sets the width of </>|Herman ==========*/
 #logo{
     border: 0;
     width: 150px;
 }
-/* ========== NavBar ========== */
+/* ========== NavBar Style ========== */
 header nav {
     margin-top: 30px; 
 }
 header nav ul li {
     list-style: none;
 }
+/* ========== NavBar List Style, color, padding and margin ========== */
 header nav ul li a{
     display: inline-block;
     text-decoration: none;
@@ -74,18 +76,21 @@ header nav ul li a{
     margin: 7px;
     color: lightgray;
 }
+/* ========== NavBar Icon Style ========== */
 header nav ul li a i{
     margin-right: 10px;
     font-size: 20px;
     transition: 0.4s;
 }
+/* ========== NavBar Icon on Hover Style ========== */
 header nav ul li a:hover i{
     color: var(--themeColor);
 }
+/* ========== NavBar Home Icon, always themecolor. ========== */
 header nav ul li .active i{
     color: var(--themeColor);
 }
-/* ========== Footer ========== */
+/* ========== Footer which is fixed at the bottom with a transition.  ========== */
 header .footer{
     text-align: center;
     background-color: var(--sideBGColor);
@@ -99,10 +104,11 @@ header .footer{
     left: 0; 
     transition: 0.4s;
 }
+/* ========== Footer color of "Herman" ========== */
 header .footer p a{
     color: var(--themeColor);
 }
-/* ========== Mobile Nav Check ========== */
+/* ========== Mobile Nav Check Style, positioning, color, size, shadows, etc. ========== */
 #NavBtn{
     position: fixed;
     top: 25px;
