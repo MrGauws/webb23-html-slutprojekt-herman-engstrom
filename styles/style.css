@@ -8,7 +8,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* ========== Global Variables ========== */
+/* ========== Global Color Variables ========== */
 :root{
     --sideBGColor: #040b14;
     --themeColor: #9E7336;  
@@ -16,6 +16,7 @@
     --textColor: #525252;
     --bgColor: #F7F7F7;
 }   
+/* ========== This is for the header, the sidebar which the navbar is contained within ========== */
 header{
     height: 100vh;
     width: 300px;
@@ -29,15 +30,18 @@ header{
     transition: 0.4s;
     z-index: 99;
 }
+/* ========== Profile Div Style ========== */
 header .profile{
     text-align: center;
     margin: 10px 0
 }
+/* ========== Settings for the profile picture within the Profile Div. Sets width, makes it round and adds a border ========== */
 header .profile img{
     width: 150px;
     border-radius: 50%;
     border: 10px solid var(--iconBGcolor)
 }
+/* ========== Gives the profile picture a hover effect ========== */
 header .profile img:hover{
     border:10px solid var(--themeColor)
 }
