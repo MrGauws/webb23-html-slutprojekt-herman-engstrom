@@ -125,7 +125,7 @@ header .footer p a{
     display: none;
     z-index: 999;
 }
-/* ========== Startsida ========== */
+/* ========== Startsida w/ backgroundimg that is full width and also set to flex. ========== */
 #home{
     height: 100vh;
     width: 100%;
@@ -138,6 +138,7 @@ header .footer p a{
     padding: 70px;
     position: relative;
 }
+/* Applies a transparent black overlay over the #home section background */
 #home::before{
     content: '';
     width: 100%;
@@ -147,9 +148,11 @@ header .footer p a{
     top: 0;
     left: 0;
 }
+/* Sets a stacking order to the .home-row to make sure it is above the transparent overlay */
 #home .home-row{
     z-index: 1;
 }
+/* Styles for the h1 heading inside the .home-row div such as white, size, spacing */
 #home .home-row h1{
     font-size: 60px;
     color: white;
@@ -158,19 +161,22 @@ header .footer p a{
     margin-bottom: 10px;
     line-height: 70px;
 }
+/* Changes the color of span inside the h1 to the value of a custom variable */
 #home .home-row h1 span{
     color: var(--themeColor)
 }
-
+/* Styles for the paragraph inside the h1 */
 #home .home-row h1 p{
     
     color: whitesmoke;
     font-size: 30px;
     font-weight: 500;
 }
+/* The bottom border with the color of the "--themeColor" to "span" inside the paragraph */
 #home .home-row p span{
     border-bottom: 4px solid var(--themeColor);
 }
+/* Styles such as width, height, colors, transitons for the social media icons in the footer of the header */
 header .footer .social-icons a{
     display: inline-block;
     width: 36px;
@@ -184,23 +190,27 @@ header .footer .social-icons a{
     margin: 1.5px;
     transition: 0.4s;
 }
+/* Changes color of social-icons on hovert */
 header .footer .social-icons a:hover{
     background-color: var(--themeColor);
 }
-
+/* Styles for the About section */
 #about{
     padding: 80px 0;
     color: #ababab;
 }
+/* Sets aflex container with space-between alignment and a wrapping behavior for its child elements */
 .rad{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* Sets the first column to flex */
 .about-col-1{
     flex-basis: 35%;
     display: flex;
 }
+/* Styles for the profile picture in the about section. Sets it to a circle, centers it, */
 .about-col-1 img{
     flex-basis: 35%;
     width: 100%;
@@ -208,19 +218,23 @@ header .footer .social-icons a:hover{
     text-align: center;
     padding-left: 5px;
 }
+/* Sets the second column to flex basis 60% */
 .about-col-2{
     flex-basis: 60%;
 }
+/* Styles for the subtitle, size, margin and color with the custom variable*/
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     margin-top: 50px;
     color: var(--themeColor);
 }
+/* Defines a flex container for the tab titles */
 .tab-titles{
     display:flex;
     margin: 20px 0 40px;
 }
+/*Sets the style & positioning for tab-links*/
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -228,6 +242,7 @@ header .footer .social-icons a:hover{
     cursor: pointer;
     position: relative;
 }
+/* Styles for the tab-links with a pseudo-element that is the last child of the selected element.*/
 .tab-links::after{
     content:'';
     width: 0;
@@ -238,33 +253,41 @@ header .footer .social-icons a:hover{
     bottom: -8px;
     transform: 0.5s;
 }
-
+/* Styles for ::after attached to .tab-links.active-link such as width */
 .tab-links.active-link::after{
     width: 70%;
 }
+/* Set*/
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
 }
+/* Sets the color to the custom color variable within :root */
 .tab-contents ul li span{
     color:#9E7336;
     font-size: 14px;
 }
+/* Hides the .tab-contents by default */
 .tab-contents{
     display:none;
 }
+/* Blocks prev content of the active tab */
 .tab-contents.active-tab{
     display: block;
 }
+/* Sets styles for the header when the mobile navigation is active */
 .mobile-nav-active header{
     left: 0;
 }
+/* Sets styles for the footer inside the header when the mobile navigation is active */
 .mobile-nav-active header .footer{
     left: 0;
 }
+/*Sets the social-icons to margin 30px from the top*/
 .social-icons{
     margin-top: 30px;
 }
+/* Sets styles for the social icon links such as color, transformation, fonts etc. */
 .social-icons a{
     text-decoration: none;
     font-size: 30px;
@@ -273,28 +296,35 @@ header .footer .social-icons a:hover{
     display:inline-block;
     transition: transform 0.5s;
 }
+/* Sets an "on hover"-effect which is the customized color variable, a */
 .social-icons a:hover{
     color: var(--themeColor);
     transform:translateY(-5px);
 }
+/* Styles for the button with class btn2 */
 .btn.btn2{
     display: inline-block;
     background-color: var(--themeColor);
 }
+/* Styles for the left section of the contact form */
 .kontakt-left{
     flex-basis: 35%;
 }
+/* Styles for the left sections paragraph of the contact form */
 .kontakt-left p{
     margin-top: 30px;
 }
+/* Styles for the left sections icons of the contact form */
 .kontakt-left p i{
     color:var(--themeColor);
     margin-right: 15px;
     font-size: 25px;
 }
+/* Styles for the right section of the contact form */
 .kontakt-right{
     flex-basis: 60%;
 }
+/* Sets the .kontakt-right form to full width */
 .kontakt-right form{
     width: 100%;
 }
