@@ -365,14 +365,27 @@ form btn2{
 }
 /* Sets the width of images in mindre-bilder to 30% and adds a right margin of 10 pixels */
 .mindre-bilder img {
-  width: 30%;
-  margin-right: 10px;
+    width: 30%;
+    margin-right: 10px;
+}
+/* ========== VG-KRAV ========== */
+/* Applies the animation to the images */
+.mindre-bilder img:first-of-type {
+  animation: fade-in 2s ease-in-out forwards;
+}
+
+.mindre-bilder img:nth-of-type(2) {
+  animation: fade-in 2s ease-in-out 0.5s forwards;
+}
+
+.mindre-bilder img:last-of-type {
+  animation: fade-in 2s ease-in-out 1s forwards;
 }
 /* Sets the maximum width of #projektsidan to 800 pixels, centers it horizontally using margin:auto, and aligns the text to center */
 #projektsidan {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 /* Sets the font size of paragraphs inside #projektsidan to 1.2 rem, the line height to 1.5, and adds a top margin of 20 pixels */
 #projektsidan p {
@@ -388,11 +401,11 @@ form btn2{
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
-  }
+}
 /* Sets the color of h1 element inside #projektsidan to the value of the CSS variable --themeColor */
-  #projektsidan h1{
+#projektsidan h1{
     color:var(--themeColor)
-  }
+}
 
 /* ============================== MEDIA QUERIES & DARK MODE  ============================== */
 
@@ -503,3 +516,20 @@ form btn2{
         transition: filter 0.5s ease;
     }
 }
+/* ========== VG-KRAV ========== */
+/* ========== ANIMATION KEYFRAMES ========== */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
