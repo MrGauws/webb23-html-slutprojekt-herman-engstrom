@@ -194,6 +194,9 @@ header .footer .social-icons a{
 header .footer .social-icons a:hover{
     background-color: var(--themeColor);
 }
+
+/* ============================== About ==============================  */
+
 /* Styles for the About section */
 #about{
     padding: 80px 0;
@@ -283,6 +286,9 @@ header .footer .social-icons a:hover{
 .mobile-nav-active header .footer{
     left: 0;
 }
+
+/* ============================== Contact ==============================  */
+
 /*Sets the social-icons to margin 30px from the top*/
 .social-icons{
     margin-top: 30px;
@@ -328,6 +334,7 @@ header .footer .social-icons a:hover{
 .kontakt-right form{
     width: 100%;
 }
+/* Applies styling to all input and textareas inside the form */
 form input, form textarea{
     width: 100%;
     border: 0;
@@ -339,6 +346,7 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+/* Applies styling to the 'btn2' inside the form */
 form btn2{
     padding: 14px 60px;
     font-size: 18px;
@@ -346,30 +354,33 @@ form btn2{
     cursor: pointer;
 }
 
-/* ========== Project Sites ==========  */
+/* ============================== Project Sites ==============================  */
+
 .projekt-info img{
     max-width: 100%;
 }
+/* Sets the margin to 20px from top on mindre-bilder */
 .mindre-bilder{
     margin-top: 20px;
 }
-
+/* Sets the width of images in mindre-bilder to 30% and adds a right margin of 10 pixels */
 .mindre-bilder img {
   width: 30%;
   margin-right: 10px;
 }
+/* Sets the maximum width of #projektsidan to 800 pixels, centers it horizontally using margin:auto, and aligns the text to center */
 #projektsidan {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
-
+/* Sets the font size of paragraphs inside #projektsidan to 1.2 rem, the line height to 1.5, and adds a top margin of 20 pixels */
 #projektsidan p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-top: 20px;
 }
-
+/* Sets the display property of projekt-info to flex, sets the flex-direction to row, justifies the content to space-between, aligns the items to center, sets the width to 100%, and adds a bottom margin of 50 pixels */
 .projekt-info {
     display: flex;
     flex-direction: row;
@@ -378,11 +389,12 @@ form btn2{
     width: 100%;
     margin-bottom: 50px;
   }
-
+/* Sets the color of h1 element inside #projektsidan to the value of the CSS variable --themeColor */
   #projektsidan h1{
     color:var(--themeColor)
   }
-  /* ============================== MEDIA QUERIES & DARK MODE  ============================== */
+
+/* ============================== MEDIA QUERIES & DARK MODE  ============================== */
 
 /* ========== Google Pixel 6 PoV (WIDTH == 732)  ========== */
 @media only screen and (max-width: 732px) {
