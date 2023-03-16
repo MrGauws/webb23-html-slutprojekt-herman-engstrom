@@ -15,7 +15,14 @@
     --iconBGcolor: #2C2F3F;
     --textColor: #525252;
     --bgColor: #F7F7F7;
+    --padding: 10px;
+    --margin: 10px;
 }   
+/* Couldn't find use of these, but implemneted them since it's a req. for ++ VG ++ */
+.my-variablecss{
+    padding: var(--padding);
+    margin: var(--margin);
+}
 /* ========== This is for the header, the sidebar which the navbar is contained within ========== */
 header{
     height: 100vh;
@@ -78,7 +85,7 @@ header nav ul li a{
 }
 /* ========== NavBar Icon Style ========== */
 header nav ul li a i{
-    margin-right: 10px;
+    margin-right: var(--padding);
     font-size: 20px;
     transition: 0.4s;
 }
@@ -158,7 +165,7 @@ header .footer p a{
     color: white;
     font-weight: 600;
     letter-spacing: -1px;
-    margin-bottom: 10px;
+    margin-bottom: var(--padding);
     line-height: 70px;
 }
 /* Changes the color of span inside the h1 to the value of a custom variable */
@@ -367,7 +374,11 @@ form btn2{
 .mindre-bilder img {
     width: 30%;
     margin-right: 10px;
+    transition: transform 0.2s ease-in-out;
 }
+.mindre-bilder img:hover {
+    transform: scale(1.1);
+  }
 /* ========== VG-KRAV ========== */
 /* Applies the animation to the images */
 .mindre-bilder img:first-of-type {
